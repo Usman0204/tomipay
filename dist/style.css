@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Gthin;
+    src: url(/font/Gellix-Thin.woff);
+  }
+  
+  @font-face {
+    font-family: Gregular;
+    src: url(/font/Gellix-Regular.woff);
+  }
+  
+  @font-face {
+    font-family: Gmedium;
+    src: url(/font/Gellix-Medium.woff);
+  }
+  
+  @font-face {
+    font-family: Gsemibold;
+    src: url(/font/Gellix-SemiBold.woff);
+  }
+  
+  @font-face {
+    font-family: Gbold;
+    src: url(/font/Gellix-Bold.woff);
+  }
+  
+  @font-face {
+    font-family: Gextrabold;
+    src: url(/font/Gellix-ExtraBold.woff);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    color: #FF0083 !important;
+}
+
+a:hover{
+    color: #FF0083;
+}
+
+
+.privacy-policy{
+    padding-top: 112px;
+      padding-bottom: 146px;
+     
+  }
+
+  .section2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .nav1 {
+    background-color: #fafafa;
+  }
+  .head1 {
+      padding-top: 62px;
+      width: 80%;
+      margin: 0 auto;
+  }
+  .btn1 {
+    background: #fafafa;
+    border: 1px solid #ffe1f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 44px;
+    width: 158px;
+    margin-bottom: 44px;
+  }
+  .btn1:hover {
+      cursor: pointer;
+  }
+  .btn-tag {
+    font-style: normal;
+    font-size: 16px !important;
+    line-height: 130%;
+    color: #ff0083;
+    text-decoration: none;
+    font-family: Gsemibold;
+  }
+  .btn-link {
+    text-decoration: none;
+  }
+  .main-heading {
+    padding-bottom: 55px;
+    font-style: normal;
+    font-size: 50px !important;
+    line-height: 110%;
+    color: #000000;
+    font-family: Gbold;
+  }
+  .para1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #484848;
+    font-family: Gsemibold;
+    font-style: normal;
+    font-size: 16px !important;
+    line-height: 130%;
+  }
+  .heading1 {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-style: normal;
+    font-size: 22px !important;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: underline solid #ff0083;
+    text-underline-offset: 15px;
+    font-family: Gbold;
+  }
+  
+  .heading2 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-family: Gbold;
+    font-style: normal;
+    font-size: 16px !important;
+    line-height: 110%;
+    color: #000000;
+  }
+  .heading4 {
+    margin-top: 20px;
+    font-family: Gbold;
+  }
+  .heading5 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: gbold;
+    font-size: 18px !important;
+  }
+  p {
+    font-style: normal;
+    font-size: 16px !important;
+    line-height: 130%;
+    color: #484848;
+    font-family: Gmedium;
+  }
+  li {
+        margin: 10px;
+        font-style: normal;
+        font-size: 16px !important;
+        line-height: 130%;
+        color: #484848;
+        font-family: Gmedium;
+  }
+  .list1 {
+      list-style-type: disc;
+  }
+  .hard {
+      font-family: Gsemibold;
+  }
+  .last {
+      margin-top: 60px;
+      font-family: Gsemibold;
+  }
+  .links {
+      color: #ff0083 !important;
+      text-decoration: underline;
+      color: black;
+  }
+  .links:hover {
+      color: #ff0083;
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 820px) {
+      .heading1 {
+          text-underline-offset: 2px !important;
+      }
+  }
+  
+  @media screen and (max-width: 530px) {
+  
+      .main-heading {
+          padding-bottom: 35px !important;
+          font-size: 35px !important;
+        }
+  
+        .head1 {
+          width: 90% !important;
+          margin: 0 auto !important;
+        }
+  
+        .section2 {
+          width: 90% !important;
+          margin: 0 auto !important;
+        }
+  
+        .btn1 {
+          border-radius: 6px !important;
+          height: 34px !important;
+          width: 130px !important;
+          margin-bottom: 30px !important;
+        }
+  
+        .btn-tag {
+          font-size: 13px !important;
+        }
+  
+        .heading1 {
+          font-size: 18px !important;
+        }
+    }
+  
+
+
+  .tomipay-privacy th{
+    color: #FF0083;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "Gbold";
+    line-height: 100%;
+    padding: 20px;
+    text-align: start;
+  }
+  .tomipay-privacy td{
+    padding: 20px;
+    font-style: normal;
+    font-size: 16px !important;
+    line-height: 130%;
+    color: #484848;
+    font-family: Gmedium;
+    text-align: start;
+  }
+  .tomipay-privacy .schvsvycvycvs .span{
+      font-family: "Gbold";
+    
+  }
+  .tomipay-privacy .dhvydvyvvyvdy{
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  @media (max-width:600px){
+    .tomipay-privacy .table thead th{
+      min-width: 300px;
+    }
+  }
