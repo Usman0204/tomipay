@@ -244,3 +244,28 @@ a:hover{
       min-width: 300px;
     }
   }
+
+
+  .main-tomipay{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .main-tomipay a{
+    background: #13E22F;
+    padding: 18px 113px;
+    color: #000 !important;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Gsemibold";
+    line-height: 100%;
+    text-decoration: none !important;
+    text-transform: capitalize;
+
+  }
