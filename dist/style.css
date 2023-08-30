@@ -116,4 +116,5 @@ input{
     line-height: 110%; /* 13.2px */
     letter-spacing: 0.1px;
     text-align: start;
+    max-width: 250px;
 }
