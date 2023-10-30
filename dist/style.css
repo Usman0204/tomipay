@@ -1,271 +1,129 @@
-@font-face {
-    font-family: Gthin;
-    src: url(/font/Gellix-Thin.woff);
-  }
-  
-  @font-face {
-    font-family: Gregular;
-    src: url(/font/Gellix-Regular.woff);
-  }
-  
-  @font-face {
-    font-family: Gmedium;
-    src: url(/font/Gellix-Medium.woff);
-  }
-  
-  @font-face {
-    font-family: Gsemibold;
-    src: url(/font/Gellix-SemiBold.woff);
-  }
-  
-  @font-face {
-    font-family: Gbold;
-    src: url(/font/Gellix-Bold.woff);
-  }
-  
-  @font-face {
-    font-family: Gextrabold;
-    src: url(/font/Gellix-ExtraBold.woff);
-  }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-color: #000;
+}
 a{
-    color: #FF0083 !important;
+    text-decoration: none;
+}
+input{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.browser-page{
+    padding: 20px;
+}
+.browser-page .option-field{
+    /* position: relative; */
+    position: sticky;
+    top: 15px;
+}
+.browser-page .option-field input{
+    border: 1px solid var(--stroke, #292929);
+    background: var(--black, #000);
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    padding: 12px;
+    padding-left: 34px;
+    width: 100%;
+}
+.browser-page .option-field input::placeholder{
+    color: #717171;
 }
 
-a:hover{
-    color: #FF0083;
+.browser-page .option-field img{
+    position: absolute;
+    top: 13px;
+    left: 12px;
 }
 
+.browser-page .bottom-content .inner-item{
+    padding: 20px 0;
+}
 
-.privacy-policy{
-    padding-top: 112px;
-      padding-bottom: 146px;
-     
-  }
-
-  .section2 {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .nav1 {
-    background-color: #fafafa;
-  }
-  .head1 {
-      padding-top: 62px;
-      width: 80%;
-      margin: 0 auto;
-  }
-  .btn1 {
-    background: #fafafa;
-    border: 1px solid #ffe1f0;
-    border-radius: 8px;
+.browser-page .bottom-content .inner-item .upper-div{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    height: 44px;
-    width: 158px;
-    margin-bottom: 44px;
-  }
-  .btn1:hover {
-      cursor: pointer;
-  }
-  .btn-tag {
-    font-style: normal;
-    font-size: 16px !important;
-    line-height: 130%;
-    color: #ff0083;
-    text-decoration: none;
-    font-family: Gsemibold;
-  }
-  .btn-link {
-    text-decoration: none;
-  }
-  .main-heading {
-    padding-bottom: 55px;
-    font-style: normal;
-    font-size: 50px !important;
-    line-height: 110%;
-    color: #000000;
-    font-family: Gbold;
-  }
-  .para1 {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    color: #484848;
-    font-family: Gsemibold;
-    font-style: normal;
-    font-size: 16px !important;
-    line-height: 130%;
-  }
-  .heading1 {
-    margin-top: 50px;
-    margin-bottom: 35px;
-    font-style: normal;
-    font-size: 22px !important;
-    line-height: 110%;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: underline solid #ff0083;
-    text-underline-offset: 15px;
-    font-family: Gbold;
-  }
-  
-  .heading2 {
-    margin-top: 35px;
-    margin-bottom: 15px;
-    font-family: Gbold;
-    font-style: normal;
-    font-size: 16px !important;
-    line-height: 110%;
-    color: #000000;
-  }
-  .heading4 {
-    margin-top: 20px;
-    font-family: Gbold;
-  }
-  .heading5 {
-    margin-top: 40px;
     margin-bottom: 20px;
-    font-family: gbold;
-    font-size: 18px !important;
-  }
-  p {
-    font-style: normal;
-    font-size: 16px !important;
-    line-height: 130%;
-    color: #484848;
-    font-family: Gmedium;
-  }
-  li {
-        margin: 10px;
-        font-style: normal;
-        font-size: 16px !important;
-        line-height: 130%;
-        color: #484848;
-        font-family: Gmedium;
-  }
-  .list1 {
-      list-style-type: disc;
-  }
-  .hard {
-      font-family: Gsemibold;
-  }
-  .last {
-      margin-top: 60px;
-      font-family: Gsemibold;
-  }
-  .links {
-      color: #ff0083 !important;
-      text-decoration: underline;
-      color: black;
-  }
-  .links:hover {
-      color: #ff0083;
-      cursor: pointer;
-      text-decoration: underline;
-  }
-  
-  @media screen and (max-width: 820px) {
-      .heading1 {
-          text-underline-offset: 2px !important;
-      }
-  }
-  
-  @media screen and (max-width: 530px) {
-  
-      .main-heading {
-          padding-bottom: 35px !important;
-          font-size: 35px !important;
-        }
-  
-        .head1 {
-          width: 90% !important;
-          margin: 0 auto !important;
-        }
-  
-        .section2 {
-          width: 90% !important;
-          margin: 0 auto !important;
-        }
-  
-        .btn1 {
-          border-radius: 6px !important;
-          height: 34px !important;
-          width: 130px !important;
-          margin-bottom: 30px !important;
-        }
-  
-        .btn-tag {
-          font-size: 13px !important;
-        }
-  
-        .heading1 {
-          font-size: 18px !important;
-        }
-    }
-  
+}
 
-
-  .tomipay-privacy th{
-    color: #FF0083;
-    font-size: 20px;
-    font-style: normal;
-    font-family: "Gbold";
-    line-height: 100%;
-    padding: 20px;
-    text-align: start;
-  }
-  .tomipay-privacy td{
-    padding: 20px;
-    font-style: normal;
-    font-size: 16px !important;
-    line-height: 130%;
-    color: #484848;
-    font-family: Gmedium;
-    text-align: start;
-  }
-  .tomipay-privacy .schvsvycvycvs .span{
-      font-family: "Gbold";
-    
-  }
-  .tomipay-privacy .dhvydvyvvyvdy{
-    list-style-type: disc;
-    list-style-position: inside;
-  }
-  @media (max-width:600px){
-    .tomipay-privacy .table thead th{
-      min-width: 300px;
-    }
-  }
-
-
-  .main-tomipay{
-    background-color: #000000;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 25px;
-  }
-
-  .main-tomipay a{
-    background: #13E22F;
-    padding: 18px 113px;
-    color: #000 !important;
-    text-align: center;
+.browser-page .bottom-content .inner-item .upper-div h6{
+    color: var(--white, #FFF);
     font-size: 16px;
     font-style: normal;
-    font-family: "Gsemibold";
-    line-height: 100%;
-    text-decoration: none !important;
-    text-transform: capitalize;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+.browser-page .bottom-content .inner-item .upper-div a{
+    color: var(--primary-green, #00F026);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
 
-  }
+.browser-page .bottom-content .inner-item .bottom-div .single-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 0;
+    border-bottom: 1px solid #292929;
+}
+
+.browser-page .bottom-content .inner-item .bottom-div .single-item:last-child{
+    border-bottom: 1px solid transparent;
+}
+
+.browser-page .bottom-content .inner-item .bottom-div .single-item .left-img{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.browser-page .bottom-content .inner-item .bottom-div .single-item .left-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.browser-page .bottom-content .inner-item .bottom-div .single-item .right-text h6{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.browser-page .bottom-content .inner-item .bottom-div .single-item .right-text p{
+    color: var(--highlighted-text, #535151);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+    letter-spacing: 0.1px;
+    text-align: start;
+    max-width: 250px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
