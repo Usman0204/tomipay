@@ -23,7 +23,7 @@ input{
     /* position: relative; */
     position: sticky;
     top: 15px;
-    max-width: 80%;
+    max-width: 85%;
 }
 .browser-page .option-field input{
     border: 1px solid var(--stroke, #292929);
